@@ -87,6 +87,5 @@ button:hover {
     .input{
         width: 30%;
         float: none;
-        overflow: auto;
     }
 }
