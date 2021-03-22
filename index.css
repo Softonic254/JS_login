@@ -1,4 +1,4 @@
-*p{
+*p {
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -6,7 +6,7 @@ body {
     background-color: rgb(255, 255, 255);
 }
 
-h1{
+h1 {
     color: mediumblue;
     text-align: center;
     margin-top: 4%;
@@ -15,7 +15,7 @@ h1{
 
 .input {
     background-color: rgb(240, 240, 240);
-    width: 30%;
+    width: 500px;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
@@ -25,13 +25,13 @@ h1{
     outline: none;
 }
 
-.input>label{
+.input>label {
     margin-top: 20px;
     font-size: 20px;
     margin-left: 20px;
 }
 
-.input>input{
+.input>input {
     font-size: 18px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -42,7 +42,7 @@ h1{
     height: 20px;
 }
 
-.input>input:hover{
+.input>input:hover {
     border: 3px solid green;
 }
 
@@ -50,10 +50,11 @@ h1{
     height: 80px;
     width: 90px;
     border-radius: 30px;
-    margin: auto;padding: 20px;
+    margin: auto;
+    padding: 20px;
 }
 
-button{
+button {
     background-color: mediumseagreen;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -65,15 +66,27 @@ button{
     font-family: 'Times New Roman', Times, serif;
 }
 
-button:hover{
+button:hover {
     border: 0px;
-    background-color: green;
+    background-color: rgb(0, 9, 131);
     color: white;
+    transition: all 2.0s;
+    font-family: cursive;
+    font-style: italic;
+    text-transform: lowercase;
 }
 
-.create{
+.create {
     text-align: center;
     font-size: 18px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+@media only screen and (min-width: 468px) {
+    .input{
+        width: 30%;
+        float: none;
+        overflow: auto;
+    }
 }
