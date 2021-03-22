@@ -93,8 +93,4 @@ button:hover {
         display: flex;
     }
 
-    .image>img{
-        height: 70px;
-        width: 100px;
-    }
 }
